@@ -17,6 +17,7 @@ Estimated hazard category
 Close approach date
 Miss distance (km)
 Relative velocity (km/s)
+
 🧩 Hypotheses
 Space hazards follow recognizable time-based patterns.
 Visualizing DONKI and NEO events reveals clustering around certain dates and periods.
@@ -26,6 +27,7 @@ Polar and high-altitude environments show increased storm exposure.
 Kp index spikes disproportionately affect polar routes and satellite orbits.
 Different NASA APIs together provide a more complete risk picture.
 Combining CME speed, GST Kp index, and NEO threat level shows cross-hazard patterns.
+
 🧼 Data Cleaning & Processing
 The data required a multi-step cleaning process due to API inconsistencies:
 ✔ Cleaning Steps
@@ -41,6 +43,7 @@ cme_speed_category
 Harmonized multiple datasets with different time formats
 Mapped event severity scales (CME class, Kp, NEO hazardous flag)
 Built charts from API-generated datasets of varying lengths
+
 📊 Data Visualizations
 Your project includes several visualizations:
 NEO (Asteroids)
@@ -54,7 +57,7 @@ Heatmap of Kp intensity
 Cross-Event Comparisons
 CME speed vs resulting geomagnetic storm strength
 Event timelines combining FLR, CME, and GST
-📱 Proposed Application: SpaceRisk App
+📱 Proposed Application: Celestial dynamics App
 A real-time hazard intelligence platform enabling:
 For Aviation
 ✈ Alerts for polar route disruptions
